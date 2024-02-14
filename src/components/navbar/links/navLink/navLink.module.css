@@ -1,0 +1,26 @@
+.container{
+    
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+
+.active{
+    background-color: var(--text);
+    color: var(--bg);
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 700;
+    text-align: center;
+    box-shadow:  -20px 20px 40px rgba(51, 55, 255, 0.05),
+            20px -20px 40px rgba(0, 26, 255, 0.08)
+            ;
+    
+    
+}
+
