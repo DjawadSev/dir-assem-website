@@ -69,8 +69,15 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .imgContainer{
+
+    .heroImg{
         opacity: 15%;
+        position: relative;
+        z-index: 0;
+        
+    }
+    .imgContainer{
+        
         
         
         
@@ -82,5 +89,8 @@
     }
     .buttons{
         justify-content: center;
+        opacity: 100%;
+        position: relative;
+        z-index: 1;
     }
   }
