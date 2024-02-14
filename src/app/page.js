@@ -18,7 +18,7 @@ const Home = () => {
               </div>
             </div>
             <div className={styles.imgContainer}>
-                <Image src="/hero.gif" alt="hero image" fill className={styles.heroImg} />
+                <Image src="/hero.svg" alt="hero image" fill className={styles.heroImg} />
             </div>
           </div>
 };

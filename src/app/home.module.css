@@ -1,6 +1,7 @@
 .container{
     display: flex;
     gap: 10px;  
+    
 }
 
 .textContainer{
@@ -8,16 +9,21 @@
     flex: 1;
     flex-direction: column;
     gap: 50px;
+    
 }
 
 .title{
     font-size: 50px;
-    font-weight: 700;
+    font-weight: 900;
+    position: relative;
+    z-index: 1;
 }
 
 .desc{
-    
+    position: relative;
+    z-index: 1;
     font-size: 20px;
+    font-weight: 500;
     
 }
 
@@ -48,14 +54,28 @@
 .imgContainer{
     flex: 1;
     position: relative;
+    object-fit: fill;
+    z-index: 0;
+    width: 600px;
+    height: 600px;
+    
+}
+
+.heroImg{
+    position: relative;
+    object-fit: cover;
+    z-index: 0;
+    overflow: visible;
 }
 
 @media only screen and (max-width: 768px) {
     .imgContainer{
-        display: none;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        opacity: 15%;
+        
+        
+        
+        position: fixed;
+        z-index: 0;
     }
     .textContainer{
         text-align: center;
