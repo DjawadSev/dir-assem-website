@@ -4,7 +4,7 @@
 
 :root{
   --bg: #021024;
-  --bgSoft: #052659;
+  --bgSoft: #233652;
   --text: #eaf4fa;
   --textSoft: #7DA0CA;
   --btn: #5483B3;
@@ -41,6 +41,8 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  
 }
 
 @media only screen and (max-width: 1536px) {

@@ -5,12 +5,17 @@ import styles from "./home.module.css";
 const Home = () => {
   return <div className={styles.container}>
             <div className={styles.textContainer}>
-              <h1 className={styles.title}>DirAssem!<br></br> Digital Marketing Agency.</h1>
+              <h1 className={styles.title}>DirAssem<br></br> Digital Marketing Agency.</h1>
               <p className={styles.desc}>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptatem illum architecto voluptate veritatis nam facere saepe
-                libero mollitia. Deleniti voluptatum saepe corrupti voluptates
-                aut ratione assumenda suscipit dolores sapiente quod!
+              At DirAssem, we're not just a digital marketing agency —
+              we're your partners in growth. Our mission is to help your
+                business reach its full potential through innovative,
+                tailored marketing strategies. We believe in the power 
+                of digital technology to transform businesses, and we're
+                  committed to ethical, sustainable practices that benefit
+                  our clients and the wider community. Let's navigate the
+                    digital landscape together and create meaningful
+                    connections with your audience.
               </p>
               <div className={styles.buttons}>
                 <button className={styles.button}>Learn More</button>
